@@ -18,7 +18,7 @@ In this project i have designed a modern Tour Website frontend using basic front
 
 ## Screenshots
 
-![SS1](img/githubImages/SS1)
-![SS2](img/githubImages/SS2)
-![SS3](img/githubImages/SS3)
-![SS4](img/githubImages/SS4)
+![SS1](img/githubImages/SS1.png)
+![SS2](img/githubImages/SS2.png)
+![SS3](img/githubImages/SS3.png)
+![SS4](img/githubImages/SS4.png)
