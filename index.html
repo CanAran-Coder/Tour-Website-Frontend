@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="navbar" class="d-flex border border-2 rounded-3 justify-content-around fs-4 align-items-center shadow-lg"
+        style="width: 100%;height: 10vh;background-color: snow !important; position: fixed;z-index: 99999;">
+        <div style="height: 100%;" class="d-flex justify-content-center align-items-center">
+            <img src="img/travel-guide.png" loading="lazy"
+                style="object-fit: fill; object-position: center;height: 75%;">
+        </div>
+        <div style="flex: 0.5;">
+            <ul class="list-unstyled d-flex justify-content-between p-2 mx-1" id="ul_navbar">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#hizmetlerimiz">Hizmetlerimiz</a></li>
+                <li><a href="#turlar">Turlar</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+            </ul>
+        </div>
+        <div id="socialmedia" class="d-flex  justify-content-center align-items-center" style="height:100%;">
+            <img src="img/instagram.png " loading="lazy"
+                style="object-fit: fill; object-position: center;height: 50%;margin-right: 3px;">
+            <img src="img/youtube.png" loading="lazy"
+                style="object-fit: fill; object-position: center;height: 50%;margin-right: 3px">
+            <img src="img/twitter.png" loading="lazy" style="object-fit: fill; object-position: center;height: 50%;">
+        </div>
+    </div>
+
+
+    <section
+        style="background-image: url(img/pexels-chaitaastic-2031767.jpg); background-position: center; background-repeat: no-repeat;background-size: cover;height: 100vh; width: 100%;margin:0;padding: 0;overflow: hidden;"
+        class="d-flex flex-column justify-content-center align-items-center" id="anasayfa">
+        <p class="display-3 fw-bolder" style="color: snow;">Muhteşem Hatıralar Edinin</p>
+        <p class=" display-6" style="color: snow;">Can Aran Turları İle Unutulmaz Bir Tatil Geçirin!</p>
+        <button class="btn border p-3 px-5 fs-4"
+            style=" color: snow; font-family: 'Times New Roman', Times, serif;background-color: lightgrey;">Turlarımızı
+            Keşfedin</button>
+    </section>
+
+
+    <section id="hakkimizda" class="w-100">
+        <div class="d-flex justify-content-center w-100">
+            <h1 class="display-2">Hakkımızda</h1>
+        </div>
+        <div class="d-flex">
+            <div class="d-inline-block">
+                <img src="img/pexels-fabianwiktor-994605.jpg" loading="lazy" style="max-width: 600px;height: auto;"
+                    class="p-4">
+            </div>
+            <div class="d-flex flex-column p-4">
+                <p class="fw-bolder">Can Aran Turları</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequuntur repellendus
+                    accusamus, aperiam eaque explicabo ipsa dolorem omnis excepturi aliquid debitis dolore quas vitae
+                    tempore hic, veniam nesciunt deleniti impedit?</p>
+                <button class="btn rounded-4 bg-primary w-25">Devamını Oku...</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex flex-column bg-danger">
+        <p class="display-3 text-center">Hizmetlerimiz</p>
+        <div>
+            <ul class="d-flex list-unstyled">
+                <li class="d-flex">
+                    <div>
+                        <img src="img/purse.png" loading="lazy" style="max-width: 50px;max-height: auto;">
+                    </div>
+                    <div class="p-3">
+                        <p class="display-6 fw-bold fs-3">Hesaplı Turlar</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nemo illum nulla, vitae
+                            adipisci laborum ab, quasi labore mollitia nisi et! Doloremque voluptatem, maxime unde ullam
+                            ducimus eaque architecto dolorem?</p>
+
+                    </div>
+                </li>
+                <li class="d-flex">
+                    <div>
+                        <img src="img/dove.png" loading="lazy" style="max-width: 50px;max-height: auto;">
+                    </div>
+                    <div class="p-3">
+                        <p class="display-6 fw-bold fs-3">Ultra Herşey Dahil</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nemo illum nulla, vitae
+                            adipisci laborum ab, quasi labore mollitia nisi et! Doloremque voluptatem, maxime unde ullam
+                            ducimus eaque architecto dolorem?</p>
+
+                    </div>
+                </li>
+                <li class="d-flex">
+                    <div>
+                        <img src="img/wine-glass.png" loading="lazy" style="max-width: 50px;max-height: auto;">
+                    </div>
+                    <div class="p-3">
+                        <p class="display-6 fw-bold fs-3">Yılın Yorgunluğunu Atın</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nemo illum nulla, vitae
+                            adipisci laborum ab, quasi labore mollitia nisi et! Doloremque voluptatem, maxime unde ullam
+                            ducimus eaque architecto dolorem?</p>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="turlarimiz" class="container">
+        <div class="d-flex justify-content-center">
+            <p class="display-3 fw-bolder">Turlarımız</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+
+                <div class="card shadow-lg rounded-3" style="width: 25rem;">
+                    <div style="position: relative;background-image: url(img/pexels-pixabay-163776.jpg);background-position: center;background-repeat: no-repeat;background-size: cover; width: 100%;height: 20rem;"
+                        class="rounded-top-3">
+                        <p class="p-1 rounded-top-3"
+                            style="position:absolute; bottom: 0px;right: 0px;color: gold;background-color: black; margin: 0;">
+                            Ocak 2026</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Venedik Turu</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis vitae
+                            harum
+                            eaque iure quas distinctio, aut officiis minima adipisci ab. Voluptas, nobis provident
+                            aut
+                            expedita est facere. Magnam, quis dolorum?</p>
+                        <div class="d-flex justify-content-around w-100">
+                            <p style="color:lightblue;font-family: 'Times New Roman', Times, serif;">Venedik</p>
+                            <p style="color:lightblue;font-family: 'Times New Roman', Times, serif;">5 Gece 6 Gün
+                            </p>
+                            <p style="color:lightblue;font-family: 'Times New Roman', Times, serif;"> 25.000 TL</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ul_navbar  li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    transition: color 0.3s ease;
+}
+#ul_navbar li a:hover{
+    color: lightblue;
+    
+}
